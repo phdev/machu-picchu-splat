@@ -1,3 +1,0 @@
-{"ts":"2026-06-26T15:38:48.591Z","cmd":"goto","args":"http://localhost:8733/index.html","origin":"http://localhost:8733/index.html","durationMs":133,"status":"ok","hasCookies":false,"mode":"headed"}
-{"ts":"2026-06-26T15:38:57.652Z","cmd":"wait","args":"--timeout 9000","origin":"http://localhost:8733/index.html","durationMs":9002,"status":"error","hasCookies":false,"mode":"headed","error":"for: Timeout 9000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('--timeout') to be visible\u001b[22m\n"}
-{"ts":"2026-06-26T15:38:58.588Z","cmd":"screenshot","args":"/tmp/citadel_clean2_qa.png","origin":"http://localhost:8733/index.html","durationMs":872,"status":"ok","hasCookies":false,"mode":"headed"}

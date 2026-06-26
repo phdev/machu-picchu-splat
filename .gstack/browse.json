@@ -1,9 +1,0 @@
-{
-  "pid": 37421,
-  "port": 18161,
-  "token": "7e4a470d-92cd-4e2e-b700-3a42c5dc146e",
-  "startedAt": "2026-06-26T15:38:48.292Z",
-  "serverPath": "/Users/peterhowell/.claude/skills/gstack/browse/src/server.ts",
-  "mode": "headed",
-  "configHash": "5d55da6d39d487d2"
-}

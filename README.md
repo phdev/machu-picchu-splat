@@ -1,9 +1,10 @@
-# Machu Picchu — Gaussian Splat (PlayCanvas SOG viewer)
+# Machu Picchu — Gaussian Splats (PlayCanvas SOG viewer)
 
-A 3D Gaussian splat of the Machu Picchu citadel, viewable in the browser
-(PlayCanvas SuperSplat viewer, SOG format).
+Browser viewer with a scene switcher. Built from public drone footage
+(private/research use). Pipeline: https://github.com/phdev/splat-tests
 
-**v1** — reconstructed from public drone footage (private/research use).
-Floaters are being reduced; a denser re-train is in progress.
+- **Citadel** — the citadel from above (montage; orbit-friendly)
+- **Close-up** — low pass over the ruins (narrow capture; best from its arc)
+- **Aerial · 4K** — wider 4K view (added as it finishes)
 
-Built with the pipeline in https://github.com/phdev/splat-tests
+Gap-filling with NVIDIA ArtiFixer is a planned follow-up.
