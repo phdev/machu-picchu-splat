@@ -23,6 +23,7 @@
                 { id: 'sharp-full',  file: 'sharp_full.sog',  settings: 'sharp_research.json', label: 'SHARP · Full' },
                 { id: 'sharp-lod50', file: 'sharp_lod50.sog', settings: 'sharp_research.json', label: 'SHARP · 50%' },
                 { id: 'sharp-lod25', file: 'sharp_lod25.sog', settings: 'sharp_research.json', label: 'SHARP · 25%' },
+                { id: 'curved-shell', file: 'curved_sphere.sog', settings: 'sharp_research.json', label: 'Curved Shell' },
                 { id: 'billboard',   file: 'hero_billboard.sog', settings: 'sharp_research.json', label: 'Billboard' }
             ];
             const reqId = url.searchParams.get('scene');
@@ -603,8 +604,8 @@
 
         <!-- Machu Picchu scene switcher bar -->
         <div id="mp-switcher" style="position:fixed;top:0;left:0;right:0;z-index:1000;display:flex;align-items:center;gap:12px;flex-wrap:wrap;padding:10px 14px;font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background:linear-gradient(to bottom,rgba(0,0,0,.55),rgba(0,0,0,0));pointer-events:none">
-            <span style="color:#fff;font-weight:600;font-size:15px;letter-spacing:.3px;text-shadow:0 1px 3px rgba(0,0,0,.6)">Machu&nbsp;Picchu · SHARP&nbsp;Research&nbsp;Splat</span>
-            <span style="color:rgba(255,255,255,.88);font-weight:500;font-size:12px;text-shadow:0 1px 3px rgba(0,0,0,.6)">research feasibility only; not cleared for Supernatural production/commercial use</span>
+            <span style="color:#fff;font-weight:600;font-size:15px;letter-spacing:.3px;text-shadow:0 1px 3px rgba(0,0,0,.6)">Machu&nbsp;Picchu · Single-Image&nbsp;Research&nbsp;Splats</span>
+            <span style="color:rgba(255,255,255,.88);font-weight:500;font-size:12px;text-shadow:0 1px 3px rgba(0,0,0,.6)">research feasibility only; SHARP outputs not cleared for Supernatural production/commercial use</span>
             <span id="mp-tabs" style="display:flex;gap:6px;pointer-events:auto"></span>
         </div>
         <script>

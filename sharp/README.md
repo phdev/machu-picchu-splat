@@ -1,6 +1,6 @@
 # PlayCanvas SHARP Research Viewer
 
-This generated preview package serves the existing PlayCanvas/SuperSplat viewer with the SHARP Machu Picchu SOG variants.
+This generated preview package serves the existing PlayCanvas/SuperSplat viewer with the SHARP Machu Picchu SOG variants plus one-image fallback baselines.
 
 Research label: SHARP model outputs are research feasibility only; not cleared for Supernatural production/commercial use.
 
@@ -14,6 +14,7 @@ Scenes:
 - `sharp-full`: full SHARP SOG, about 11.25 MB.
 - `sharp-lod50`: 50% SHARP LOD SOG, about 6.49 MB.
 - `sharp-lod25`: 25% SHARP LOD SOG, about 3.38 MB.
+- `curved-shell`: spherical curved-shell one-image baseline, about 0.42 MB.
 - `billboard`: one-image billboard baseline.
 
 Serve from this directory with:
