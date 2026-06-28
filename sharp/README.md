@@ -14,7 +14,8 @@ Scenes:
 - `sharp-full`: full SHARP SOG, about 11.25 MB.
 - `sharp-lod50`: 50% SHARP LOD SOG, about 6.49 MB.
 - `sharp-lod25`: 25% SHARP LOD SOG, about 3.38 MB.
-- `curved-shell`: spherical curved-shell one-image baseline, about 0.42 MB.
+- `curved-shell`: smoother 1024-grid spherical curved-shell one-image baseline, about 4.8 MB.
+- `curved-shell-lite`: original 256-grid curved-shell diagnostic, about 0.42 MB.
 - `billboard`: one-image billboard baseline.
 
 Serve from this directory with:
