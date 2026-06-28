@@ -8,3 +8,7 @@ Browser viewer with a scene switcher. Built from public drone footage
 - **Aerial · 4K** — wider 4K view (added as it finishes)
 
 Gap-filling with NVIDIA ArtiFixer is a planned follow-up.
+
+Research-only SHARP single-image test: `/sharp/?scene=sharp-full`.
+SHARP model outputs are research feasibility only; not cleared for
+Supernatural production/commercial use.
