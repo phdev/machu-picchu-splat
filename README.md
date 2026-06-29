@@ -9,7 +9,7 @@ Browser viewer with a scene switcher. Built from public drone footage
 
 Gap-filling with NVIDIA ArtiFixer is a planned follow-up.
 
-Research-only single-image tests: `/sharp/?scene=sharp-full` and
-`/sharp/?scene=curved-shell`.
-SHARP model outputs are research feasibility only; not cleared for
-Supernatural production/commercial use.
+Research-only single-image tests: `/sharp/?scene=sharp-full`,
+`/sharp/?scene=seva-instantsplat-full`, and `/sharp/?scene=curved-shell`.
+SHARP, SEVA, and InstantSplat outputs are research feasibility only; not
+cleared for Supernatural production/commercial use.
