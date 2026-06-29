@@ -15,9 +15,9 @@ Scenes:
 - `sharp-full`: full SHARP SOG, about 11.25 MB.
 - `sharp-lod50`: 50% SHARP LOD SOG, about 6.49 MB.
 - `sharp-lod25`: 25% SHARP LOD SOG, about 3.38 MB.
-- `seva-instantsplat-full`: SEVA synthetic views trained with InstantSplat, about 11.38 MB.
-- `seva-instantsplat-lod50`: 50% SEVA + InstantSplat LOD SOG, about 5.75 MB.
-- `seva-instantsplat-lod25`: 25% SEVA + InstantSplat LOD SOG, about 2.88 MB.
+- `seva-instantsplat-full`: SEVA synthetic views trained with InstantSplat, `seva_instantsplat_20260629T165620Z_full.sog`, about 11.37 MB.
+- `seva-instantsplat-lod50`: 50% SEVA + InstantSplat LOD SOG, `seva_instantsplat_20260629T165620Z_lod50.sog`, about 5.75 MB.
+- `seva-instantsplat-lod25`: 25% SEVA + InstantSplat LOD SOG, `seva_instantsplat_20260629T165620Z_lod25.sog`, about 2.87 MB.
 - `curved-shell`: smoother 1024-grid spherical curved-shell one-image baseline, about 4.8 MB.
 - `curved-shell-lite`: original 256-grid curved-shell diagnostic, about 0.42 MB.
 - `billboard`: one-image billboard baseline.
