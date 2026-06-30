@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-30T13:36:00+00:00",
+  "generated_at_utc": "2026-06-30T16:53:14+00:00",
   "viewer_dir": "/Users/peterhowell/splat-tests/site",
   "viewer_dir_reason": "existing PlayCanvas/static viewer directory",
   "research_only_label": "research feasibility only; not cleared for Supernatural production/commercial use",
@@ -97,6 +97,63 @@
         "spikes/mobile_vr_splat_feasibility/DECISION.md",
         "spikes/mobile_vr_splat_feasibility/GAP_MAP.md"
       ]
+    },
+    {
+      "name": "Machu Picchu SEVA Final+InstantSplat",
+      "scene_id": "seva-final-instantsplat",
+      "file": "splats/machu_picchu_seva_final_instantsplat_research_only.sog",
+      "source_asset": "spikes/mobile_vr_splat_feasibility/runs/instantsplat_20260630T162959Z/viewer_assets/machu_picchu_seva_final_instantsplat_research_only.sog",
+      "source_pipeline": "Final conservative SEVA synthetic views -> InstantSplat sparse-view Gaussian splat, research-only",
+      "primitive_count": 698166,
+      "path": "/Users/peterhowell/mp-deploy/splats/machu_picchu_seva_final_instantsplat_research_only.sog",
+      "date_utc": "2026-06-30T16:53:14+00:00",
+      "bytes": 7959365,
+      "research_only_label": "research feasibility only; not cleared for Supernatural production/commercial use",
+      "not_production_cleared_warning": "research feasibility only; not cleared for Supernatural production/commercial use",
+      "provenance_report_links": [
+        "assets/machu_picchu_views_seva_best_final/SEVA_BEST_FINAL_PROVENANCE.md",
+        "spikes/mobile_vr_splat_feasibility/SEVA_BEST_FINAL_REPORT.md",
+        "spikes/mobile_vr_splat_feasibility/runs/instantsplat_20260630T162959Z/instantsplat_output/machu_picchu/seva/5_views/01_init_geo.log",
+        "spikes/mobile_vr_splat_feasibility/runs/instantsplat_20260630T162959Z/previews/seva_final_instantsplat/"
+      ]
+    },
+    {
+      "name": "Machu Picchu SEVA Final+InstantSplat 50%",
+      "scene_id": "seva-final-instantsplat-lod50",
+      "file": "splats/machu_picchu_seva_final_instantsplat_lod50_research_only.sog",
+      "source_asset": "spikes/mobile_vr_splat_feasibility/runs/instantsplat_20260630T162959Z/generated_assets/lods/seva_final_instantsplat_20260630T162959Z_point_cloud_research_only_lod_50.sog",
+      "source_pipeline": "Final conservative SEVA synthetic views -> InstantSplat sparse-view Gaussian splat, 50% LOD, research-only",
+      "primitive_count": 349083,
+      "path": "/Users/peterhowell/mp-deploy/splats/machu_picchu_seva_final_instantsplat_lod50_research_only.sog",
+      "date_utc": "2026-06-30T16:53:14+00:00",
+      "bytes": 4261102,
+      "research_only_label": "research feasibility only; not cleared for Supernatural production/commercial use",
+      "not_production_cleared_warning": "research feasibility only; not cleared for Supernatural production/commercial use",
+      "provenance_report_links": [
+        "assets/machu_picchu_views_seva_best_final/SEVA_BEST_FINAL_PROVENANCE.md",
+        "spikes/mobile_vr_splat_feasibility/SEVA_BEST_FINAL_REPORT.md",
+        "spikes/mobile_vr_splat_feasibility/runs/instantsplat_20260630T162959Z/instantsplat_output/machu_picchu/seva/5_views/01_init_geo.log",
+        "spikes/mobile_vr_splat_feasibility/runs/instantsplat_20260630T162959Z/previews/seva_final_instantsplat/"
+      ]
+    },
+    {
+      "name": "Machu Picchu SEVA Final+InstantSplat 25%",
+      "scene_id": "seva-final-instantsplat-lod25",
+      "file": "splats/machu_picchu_seva_final_instantsplat_lod25_research_only.sog",
+      "source_asset": "spikes/mobile_vr_splat_feasibility/runs/instantsplat_20260630T162959Z/generated_assets/lods/seva_final_instantsplat_20260630T162959Z_point_cloud_research_only_lod_25.sog",
+      "source_pipeline": "Final conservative SEVA synthetic views -> InstantSplat sparse-view Gaussian splat, 25% LOD, research-only",
+      "primitive_count": 174542,
+      "path": "/Users/peterhowell/mp-deploy/splats/machu_picchu_seva_final_instantsplat_lod25_research_only.sog",
+      "date_utc": "2026-06-30T16:53:14+00:00",
+      "bytes": 2170848,
+      "research_only_label": "research feasibility only; not cleared for Supernatural production/commercial use",
+      "not_production_cleared_warning": "research feasibility only; not cleared for Supernatural production/commercial use",
+      "provenance_report_links": [
+        "assets/machu_picchu_views_seva_best_final/SEVA_BEST_FINAL_PROVENANCE.md",
+        "spikes/mobile_vr_splat_feasibility/SEVA_BEST_FINAL_REPORT.md",
+        "spikes/mobile_vr_splat_feasibility/runs/instantsplat_20260630T162959Z/instantsplat_output/machu_picchu/seva/5_views/01_init_geo.log",
+        "spikes/mobile_vr_splat_feasibility/runs/instantsplat_20260630T162959Z/previews/seva_final_instantsplat/"
+      ]
     }
   ],
   "package_events": [
@@ -138,6 +195,27 @@
     {
       "category": "cleaned",
       "status": "missing_source"
+    },
+    {
+      "category": "seva_final_instantsplat",
+      "source": "spikes/mobile_vr_splat_feasibility/runs/instantsplat_20260630T162959Z/viewer_assets/machu_picchu_seva_final_instantsplat_research_only.sog",
+      "dest": "/Users/peterhowell/mp-deploy/splats/machu_picchu_seva_final_instantsplat_research_only.sog",
+      "status": "copied_sog",
+      "command": null
+    },
+    {
+      "category": "seva_final_instantsplat_lod50",
+      "source": "spikes/mobile_vr_splat_feasibility/runs/instantsplat_20260630T162959Z/generated_assets/lods/seva_final_instantsplat_20260630T162959Z_point_cloud_research_only_lod_50.sog",
+      "dest": "/Users/peterhowell/mp-deploy/splats/machu_picchu_seva_final_instantsplat_lod50_research_only.sog",
+      "status": "copied_sog",
+      "command": null
+    },
+    {
+      "category": "seva_final_instantsplat_lod25",
+      "source": "spikes/mobile_vr_splat_feasibility/runs/instantsplat_20260630T162959Z/generated_assets/lods/seva_final_instantsplat_20260630T162959Z_point_cloud_research_only_lod_25.sog",
+      "dest": "/Users/peterhowell/mp-deploy/splats/machu_picchu_seva_final_instantsplat_lod25_research_only.sog",
+      "status": "copied_sog",
+      "command": null
     }
   ],
   "notes": [
@@ -146,7 +224,7 @@
   ],
   "catalog_update": {
     "status": "updated",
-    "index": "/Users/peterhowell/splat-tests/site/index.html",
-    "scene_count": 5
+    "index": "/Users/peterhowell/mp-deploy/index.html",
+    "scene_count": 8
   }
 }
