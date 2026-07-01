@@ -10,6 +10,7 @@ This package was generated locally by `spikes/mobile_vr_splat_feasibility/script
 
 ## Packaged Assets
 
+- `anysplat-research` -> `splats/machu_picchu_anysplat_research_only.sog`
 - `sharp-refined-research` -> `splats/machu_picchu_sharp_refined_research_only.sog`
 - `sharp-research-packaged` -> `splats/machu_picchu_sharp_research_only.sog`
 - `sparse-ranked-research` -> `splats/machu_picchu_sparse_ranked_research_only.sog`
