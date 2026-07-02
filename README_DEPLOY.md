@@ -10,6 +10,7 @@ This package was generated locally by `spikes/mobile_vr_splat_feasibility/script
 
 ## Packaged Assets
 
+- `spag4d-sharp360-side8-caps-research` -> `splats/machu_picchu_spag4d_sharp360_side8_caps_research_only.sog`
 - `spag4d-da360-stride2-research` -> `splats/machu_picchu_spag4d_da360_stride2_research_only.sog`
 - `spag4d-da360-stride4-research` -> `splats/machu_picchu_spag4d_da360_stride4_research_only.sog`
 - `spag4d-research` -> `splats/machu_picchu_spag4d_research_only.sog`
